@@ -1,25 +1,15 @@
-let id = document.getElementById('h3-id').innerHTML = 'TEST!';
-// console.dir(id);
+let txt = false;
+let px = 100;
 
-let txt;
-function test() {
-    if (document.getElementById("fname").value) {
-        txt = true;
-    } else {
-        txt = false;
-    }
+function mouse() {
+   txt = document.getElementById("fname").value ? true : false
 }
 
-let px = 100;
 document.getElementById("demo").onmouseover = () => {
     if (!txt) {
         document.getElementById("demo")
         .style.marginLeft = `${px}px`;
-        if(!px) {
-            px = 100;
-        } else {
-            px = 0;
-        }
+        px *= -1;
     }
 };
 
