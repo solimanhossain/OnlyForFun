@@ -8,8 +8,4 @@
 
 > ToDoApp
 >
-
-
-
-https://github.com/solimanhossain/OnlyJavaScript/assets/58604579/7b911add-608c-433d-9a6d-1ce1269dc98d
-
+![ezgif-5-24e51f5db0](https://github.com/solimanhossain/OnlyJavaScript/assets/58604579/6e42865b-b19c-49ac-8e33-861d1583153a)
