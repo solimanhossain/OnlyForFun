@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping Cart </title>
+</head>
+<body>
+    <div class="container pt-3 mb-3">
+        <h1 class="text-center">Developing A shopping Cart Using JavaScript</h1>
+    </div>
+<div class="row">
+    <div class="col-8">
+        <!-- Product List -->
+        <div class="container text-center rounded-sm" id="products">
+            <div class="row product-row m-3">
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image0.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">Pink Shirt</h5>
+                        <p class="card-text product-price">480<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image1.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">Brown Shirt</h5>
+                        <p class="card-text product-price">550<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image2.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">Blue Shirt</h5>
+                        <p class="card-text product-price">560<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row product-row m-3">
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image3.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">Black Shirt</h5>
+                        <p class="card-text product-price">450<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image4.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">Red Shirt</h5>
+                        <p class="card-text bold-text product-price">420<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="col card p-3 m-3 product">
+                    <img class="card-img-top" src="image/image5.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title product-tittle">White Shirt</h5>
+                        <p class="card-text bold-text product-price">500<sup>$</sup></p>
+                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="col-4 boder">
+        <!-- Produt Cart -->
+        <div class="container mt-5"  id="products-list">
+            <div class="row bodertb txtright p-3">
+                <div class="col-2">Remove</div>
+                <div class="col-6">Product</div>
+                <div class="col-4">Price</div>
+            </div>
+        </div>
+        <div class="row container txtright">
+            <div class="col-2">
+                <b>
+                    <a href="#" class="btn btn-success">Buy</a>
+                </b>
+            </div>
+            <div class="col-10 ">
+                <b>
+                    <span>Total Amount : </span>
+                    <span id="total-amount">0</span><span><sup>$</sup></span>
+                </b>
+            </div> 
+        </div>
+    </div>  
+</div>
+    
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.txtright {
+    text-align: right;
+}
+
+.bodertb {
+    border-top: .1px solid lightgray;
+    border-bottom: .1px solid lightgray;
+}
