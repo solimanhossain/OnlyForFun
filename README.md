@@ -11,5 +11,5 @@
 >
 ![ezgif-5-24e51f5db0](https://github.com/solimanhossain/OnlyJavaScript/assets/58604579/6e42865b-b19c-49ac-8e33-861d1583153a)
 
-> [AddToCart](https://solimanhossain.github.io/OnlyJavaScript/AddToCart/)
+> [AddToCart](https://solimanhossain.github.io/OnlyJavaScript/AddToCartBohubrihi/)
 > 
