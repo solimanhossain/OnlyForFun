@@ -16,7 +16,7 @@
 > ![ToDoAppDemo](https://github.com/solimanhossain/OnlyJavaScript/assets/58604579/6e42865b-b19c-49ac-8e33-861d1583153a)
 
 
-> [RegExValidity](https://solimanhossain.github.io/OnlyJavaScript/ExValidBohubrihi/)
+> [RegExValidity](https://solimanhossain.github.io/OnlyJavaScript/RegExValidBohubrihi/)
 > 
 > ![RegExValidityDemo](https://github.com/solimanhossain/OnlyJavaScript/assets/58604579/914b7643-0e3f-402b-9345-e446c6aff452)
 
