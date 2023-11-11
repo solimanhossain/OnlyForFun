@@ -1,0 +1,25 @@
+/* Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.delete {
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    background: red;
+    color: white;
+    text-decoration: none;
+}
+/* Alert
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
